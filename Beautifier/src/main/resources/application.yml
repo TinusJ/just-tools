@@ -1,0 +1,17 @@
+spring:
+  debug: true
+  application:
+    name: "just-tools"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/JTools
+    username: postgres
+    password: "@Tinus"
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: default
+    #    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
